@@ -43,6 +43,8 @@
     <version.weld>3.0.3.Final</version.weld>
     <version.snakeyaml>1.19</version.snakeyaml>
 
+    <version.lombok>1.18.0</version.lombok>
+
     <version.arjuna>5.7.1.Final</version.arjuna>
     <version.hibernate>5.3.1.Final</version.hibernate>
     <version.hibernate-ogm>5.4.0.Beta1</version.hibernate-ogm>
@@ -524,6 +526,12 @@
         <groupId>org.yaml</groupId>
         <artifactId>snakeyaml</artifactId>
         <version>${version.snakeyaml}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${version.lombok}</version>
       </dependency>
 
       <dependency>
